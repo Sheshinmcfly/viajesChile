@@ -14,3 +14,15 @@ $(document).ready(function () {
         )
     })
 })
+
+/* Mostrar u ocultar formulario */
+$(document).ready(function () {
+
+    $("#Contacto button").click(function () {
+        $(".tf").show();
+    });
+
+    $(".tf .btn").click(function () {
+        $(".tf").hide();
+    });
+})
